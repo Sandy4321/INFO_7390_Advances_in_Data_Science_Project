@@ -1,0 +1,22 @@
+Actions:
+
+Data Understanding and Pre-Processing:- 
+
+Sumit
+. Time => processing and converting it to categories and numerical (One-hot encoding)
+. State => state with policy; cor-coeff; One-hot Encoding and check top corr-coefff= with policy
+
+Nuhiya
+. Cost vs rest of the features (Corellation Coeffienct)
+. Day => poicy and possibly convert to weekday and weekend.
+
+Leela
+. Handling NAs 
+	a) risk_factor=> KNN missing values imputation, scikit (remove  cust_id, time) - train.csv
+	b) c_previous, duration_previous => replace NAs of a single customer where he has revealed these values at later stage
+
+Whoever finished their tasks first ?
+. Duplicates removal within customer sessions(for each customer). Save the last(one) row of the duplicates.
+	Find duplicates by eleminating Shopping_pt and time.	
+
+

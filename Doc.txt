@@ -1,0 +1,7 @@
+1)One-Hot Encoding (categorical variables to coloums)
+2)KNN missing values imputation, scikit
+3)GBM(gradient boosting),SVM,GLM - Multiclass,RF,DRF,NN,DT
+4)GBM,DT(Dist random forest),RF(Random Forest),
+5)AUC curve
+
+One-hot Encoding get top 3 features include them into the original dataset as well with test dataset
